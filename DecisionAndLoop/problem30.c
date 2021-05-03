@@ -3,8 +3,11 @@
 int main(){
 	int i,j,space;
 
-	for(i = 5; i >= 1; i--){
-		for(space = 5; space > i;space--){
+	int no;
+	scanf("%d",&no);
+
+	for(i = no; i >= 1; i--){
+		for(space = no; space > i;space--){
 			printf(" ");
 		}
 		for(j = 1; j <=i;j++){
