@@ -4,12 +4,18 @@ typedef int BOOL;
 #define FALSE 0
 #include<stdio.h>
 BOOL checkArmstrong(int n){
+	int temp = n;
+	int digitCnt = 0;
+	while(temp != 0){
+		digitCnt++;
+		temp/=10;
+	}
 	int last_digit = 0,power = 1;
 	int original = n; 
 	int res = 0;
 	while(n != 0){
 		last_digit = n % 10;
-		for(int i = 1;i <= 3; i++){
+		for(int i = 1;i <= digitCnt; i++){
 			power = power * last_digit;
 		}
 		res += power;
@@ -35,3 +41,22 @@ int main(){
 	}
 	return 0;
 }
+
+/*
+output
+
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+1634
+YES,its armstrong number
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+153
+YES,its armstrong number
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+121
+NO, Its not armstrong number 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+*/

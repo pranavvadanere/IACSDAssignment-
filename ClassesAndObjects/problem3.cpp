@@ -66,3 +66,23 @@ int main(){
 	cout << b1.getAuthor() << endl;
 	return 0;
 }
+
+/*
+
+OUTPUT: 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ g++ problem3.cpp 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ ./a.out 
+ book name is letUs C
+ id of book is 10000
+ author name is yashwant kanitkar
+ price of book is 150/-
+ book name is letUs C
+ id of book is 10000
+ author name is yashwant kanitkar
+ price of book is 350/-
+yashwant kanitkar
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ 
+
+
+
+*/

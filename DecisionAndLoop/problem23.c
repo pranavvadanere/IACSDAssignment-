@@ -37,3 +37,18 @@ int main(){
 		printf("no is not prime\n");
 	return 0;
 }
+
+/*
+output
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+23
+no is prime
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+12
+no is not prime
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/

@@ -31,3 +31,22 @@ int main(){
 
 	return 0;
 }
+
+/*
+output
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+6
+Perfect number
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+24
+not perfect number
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+36
+not perfect number
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/

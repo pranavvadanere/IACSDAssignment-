@@ -28,3 +28,21 @@ int main(){
 	printf("%d\n",res);
 	return 0;
 }
+/*
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem18.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number 
+2
+enter a rest to the power
+3
+8
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number 
+2 
+enter a rest to the power
+8
+256
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/

@@ -107,8 +107,9 @@ int main(){
 			case 3:
 			printf("eneter the string one\n");
 			scanf(" %[^'\n']s",string1);
-			strCpyX(string2,string1);
-			printf("copied str is %s\n",string2);
+			char temp[20];
+			strCpyX(temp,string1);
+			printf("copied str is %s\n",temp);
 			break;
 			case 4:
 			printf("eneter the string one\n");
@@ -123,3 +124,73 @@ int main(){
 
 	
 }
+
+
+/*
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ gcc problem3.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ ./a.out 
+eneter the choice from the following
+********************************************
+1. Sting comparison
+2. Sting concatenate
+3. Sting copy
+4. Sting length
+0. exit
+********************************************
+1
+eneter the string one
+pranv
+eneter the second string two
+prav
+string are not equal
+eneter the choice from the following
+********************************************
+1. Sting comparison
+2. Sting concatenate
+3. Sting copy
+4. Sting length
+0. exit
+********************************************
+2
+eneter the string one
+ab
+eneter the second string two
+c
+ concatenate str is->  abc
+eneter the choice from the following
+********************************************
+1. Sting comparison
+2. Sting concatenate
+3. Sting copy
+4. Sting length
+0. exit
+********************************************
+3
+eneter the string one
+abc
+copied str is abc
+eneter the choice from the following
+********************************************
+1. Sting comparison
+2. Sting concatenate
+3. Sting copy
+4. Sting length
+0. exit
+********************************************
+4
+eneter the string one
+vadnere
+Length of the strign is 7pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ ./a.out 
+eneter the choice from the following
+********************************************
+1. Sting comparison
+2. Sting concatenate
+3. Sting copy
+4. Sting length
+0. exit
+********************************************
+0
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ 
+
+
+*/

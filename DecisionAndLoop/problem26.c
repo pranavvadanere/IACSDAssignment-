@@ -7,7 +7,7 @@ typedef int BOOL;
 #define TRUE 1
 #define FALSE 0
 /////////////////////////////////////////////////////////////////////////////////////////
-//	function name : isStrion
+//	function name : isStrong
 //	function desc : check the no is strong or not
 //	input : integer
 //	output: BOOL 
@@ -47,3 +47,19 @@ int main(){
 
 	return 0;
 }
+/*
+OUTPUT
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem26.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number to check strong or not
+145
+145
+yes its strong number
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number to check strong or not
+121
+4
+not a strong number
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+*/

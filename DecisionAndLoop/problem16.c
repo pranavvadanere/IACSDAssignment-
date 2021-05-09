@@ -15,3 +15,21 @@ int main(){
 	printf("%d\n",reverseNo);
 	return 0;
 }
+
+/*
+output
+
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+121
+reverse no is 
+121
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+123
+reverse no is 
+321
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/

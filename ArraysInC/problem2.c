@@ -22,7 +22,7 @@ void printPrime(int* ptr,int size){
 			return;
 		}
 
-		for(i = 0; i < size; i++){
+		for(i = 1; i < size; i++){
 
 			flag = 1;
 
@@ -57,3 +57,16 @@ int main(){
 	printPrime(ptr,n);
 	return 0;
 }
+
+/*
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ArraysInC$ ./a.out 
+enter a size of array
+5
+enter a elements in array 
+1 2 3 4 5
+2 is prime
+3 is prime
+5 is prime
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ArraysInC$ 
+
+*/

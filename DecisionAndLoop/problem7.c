@@ -27,3 +27,20 @@ int main(){
 	}
 	return 0;
 }
+
+/*
+output;
+
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem7.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a nummber between 1-7 
+7
+Sunday
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a nummber between 1-7 
+3
+Wednesday
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/

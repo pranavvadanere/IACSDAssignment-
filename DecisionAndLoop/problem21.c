@@ -13,7 +13,20 @@ int main(){
 			gcd = i;
 		}
 	}
-	printf("%d\n",gcd);
-	return 0;
-	
+	printf("%d is gcd \n",gcd);
+	return 0;	
 }
+/*
+output
+ranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem21.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter the value for a and b
+12 24
+12 is gcd 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter the value for a and b
+20
+70
+10 is gcd 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop
+*/

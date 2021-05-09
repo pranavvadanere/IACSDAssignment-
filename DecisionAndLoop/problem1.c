@@ -29,3 +29,14 @@ int main(){
 	printf("Gross Salary is %f \n",grossSalary );
 	return 0;
 }
+
+/*
+pranav@pranav-ThinkPad-L420:~$ cd IACSDAssignment/DecisionAndLoop/
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem1.c -o myexe
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./myexe 
+enter employee salary
+1000
+Gross Salary is 2000.000000 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+*/

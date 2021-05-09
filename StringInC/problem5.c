@@ -22,6 +22,7 @@ void cyclicallyPermuteStr(char str[]){
 			j++;
 			k++;
 		}
+		temp[k] = '\0';
 		printf("%s\n",temp);
 	}
 }
@@ -34,3 +35,24 @@ int main(){
 	cyclicallyPermuteStr(arr);
 	return 0;
 }
+
+/*
+OUTPUT
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ gcc problem5.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ ./a.out 
+enter a string 
+space
+space
+paces
+acesp
+cespa
+espac
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ ./a.out 
+enter a string 
+abc
+abc
+bca
+cab
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ 
+
+*/

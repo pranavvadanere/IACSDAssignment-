@@ -34,3 +34,19 @@ int main(){
 	}
 	return 0;
 }
+
+/*
+output
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter the no of rows want to print
+3 
+						0	
+				1	0	1	
+		2	1	0	1	2	
+3	2	1	0	1	2	3	
+		2	1	0	1	2	
+				1	0	1	
+						0	
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+*/

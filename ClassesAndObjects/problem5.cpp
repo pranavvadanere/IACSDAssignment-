@@ -10,7 +10,7 @@ class Complex{
 		int img;
 	public:
 		~Complex(){
-
+			cout << "destructor is called";
 		}
 		Complex(){
 			real = 0;
@@ -54,3 +54,13 @@ int main(){
 	c2.display();
 	return 0;
 }
+/*
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ g++ problem5.cpp 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ ./a.out 
+1+2i
+4+7i
+c2 real 3
+c2 IMG 5
+3+5i
+destructor is calleddestructor is calledpranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$
+*/

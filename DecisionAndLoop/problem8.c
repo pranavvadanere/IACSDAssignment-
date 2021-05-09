@@ -32,3 +32,27 @@ int main(){
 	}
 	return 0;
 }
+
+/*
+output
+
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem8.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a month betweeen 1- 12
+12
+31 days
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a month betweeen 1- 12
+3
+31 days
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a month betweeen 1- 12
+1
+31 days
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a month betweeen 1- 12
+2
+28 days or 29 days
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+*/

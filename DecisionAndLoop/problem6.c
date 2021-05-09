@@ -14,3 +14,23 @@ int main(){
 	}
 	return 0;
 }
+
+/*
+OUTPUT:
+
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+1634
+YES,its armstrong number
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+153
+YES,its armstrong number
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number
+121
+NO, Its not armstrong number 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/

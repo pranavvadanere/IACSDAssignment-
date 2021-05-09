@@ -67,3 +67,15 @@ int main(){
 
 	return 0;
 }
+/*
+enter a size of array
+5
+enter elements of array
+1 2 3 4 5
+15
+3.000000
+5
+1
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ArraysInC$ ^C
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ArraysInC$ 
+*/

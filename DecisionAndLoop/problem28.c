@@ -16,3 +16,15 @@ int main(){
 
 	return 0;
 }
+
+/*
+output
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem28.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+alphabets from A- Z 
+A	B	C	D	E	F	G	H	I	JK	L	M	N	O	P	Q	R	S	TU	V	W	X	Y	Z	
+alphabets from a - z
+a	b	c	d	e	f	g	h	i	jk	l	m	n	o	p	q	r	s	tu	v	w	x	y	z	
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+*/

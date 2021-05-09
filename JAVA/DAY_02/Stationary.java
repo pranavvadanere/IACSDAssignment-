@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class ShopppingCart{
+public class Stationary {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		boolean flag = true;
@@ -60,5 +60,6 @@ class ShopppingCart{
 				break;
 			}
 		}
+		scan.close();
 	}
 }

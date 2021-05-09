@@ -16,3 +16,15 @@ int main(){
 	printf("sum of even  = %d \n",sumOfeven);
 	return 0;
 }
+
+/*
+OUTPUT
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem13.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a value of n
+10
+sum of odd  = 25 
+sum of even  = 30 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+*/

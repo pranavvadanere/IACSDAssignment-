@@ -49,3 +49,16 @@ int main(){
 	cout << p1.getY() << endl; 
 
 }
+
+/*
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ g++ problem4.cpp 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ ./a.out 
+X : 1
+Y : 2
+X : 3
+Y : 4
+3
+4
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ 
+
+*/

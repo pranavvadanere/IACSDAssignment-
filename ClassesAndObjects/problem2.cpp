@@ -81,3 +81,20 @@ int main(){
 	cout << d1.getYear() <<endl;
 	return 0;
 }
+
+/*
+OUTPUT
+
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ g++ problem2.cpp 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ ./a.out 
+date is
+17/10/2021
+date is
+30/5/2021
+30
+5
+2021
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ 
+
+
+*/

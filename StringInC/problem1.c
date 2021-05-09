@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include<string.h>
 
-	void swap(char**,char**);
+void swap(char**,char**);
 
 int main(){
 
@@ -37,8 +37,8 @@ int main(){
 			}
 		}
 	}
-	
 
+printf("\noutput\n");
 	for(int i =0; i < no; i++){
 		printf("%s\n",arr[i]);
 	}
@@ -48,6 +48,27 @@ void swap(char** ptr1, char** ptr2){
 		*ptr1 = *ptr2;
 		*ptr2 = temp;
 	}
+
+	/*
+	output
+	enter the no of string 
+5
+enter the names
+pranav
+pranav vadnere
+pran  
+rucha
+jeevan 
+
+output
+pran
+rucha
+pranav
+jeevan
+pranav vadnere
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ 
+
+	*/
 
 
 /*

@@ -66,3 +66,25 @@ int main(){
 	printf("**************************************************\n");
 	return 0;
 }
+/*
+output
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem9.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a amount 
+23500
+*************Total number of Notes **************
+2000  = 11
+500  = 3
+200  = 0
+100  = 0
+50  = 0
+20  = 0
+10  = 0
+5  = 0
+2  = 0
+1  = 0
+**************************************************
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/

@@ -20,3 +20,31 @@ int main(){
 	}
 	return 0;
 }
+
+/*
+output
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem30.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+ 
+5
+zyxwvwxyz
+ zyxwxyz
+  zyxyz
+   zyz
+    z
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+10
+zyxwvutsrqrstuvwxyz
+ zyxwvutsrstuvwxyz
+  zyxwvutstuvwxyz
+   zyxwvutuvwxyz
+    zyxwvuvwxyz
+     zyxwvwxyz
+      zyxwxyz
+       zyxyz
+        zyz
+         z
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/

@@ -98,7 +98,48 @@ void updateSec(int ss, Time *temp){
 	int iTemp = temp -> seconds;
 	temp -> seconds = iTemp + ss;
 	int iMin = (temp -> seconds) / 60;
+	//printf("%d\n",temp -> seconds);
 	if(temp -> seconds > 59){
+		temp -> seconds = temp -> seconds % 60;
 		updateMin(iMin,temp);
 	}
 }
+
+
+/*
+output
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ ./a.out 
+enter hrs
+23
+enter min
+50
+enter second
+70
+before update
+23  51  10 
+23  52  40 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ 
+
+enter hrs
+23
+enter min
+61
+enter second
+28
+before update
+0  1  28 
+0  2  58 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC
+
+enter hrs
+0
+enter min
+23
+enter second
+58
+before update
+0  23  58 
+0  25  28 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ 
+
+*/

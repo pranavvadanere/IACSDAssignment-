@@ -1,6 +1,4 @@
-// Write a program that will read each line in a file and store it
-// in another file with the sequence reversed, that is, the first line in file one should be
-// the last line in file two and so on.
+// 1:Write a function to accept array of string.Display all elements in uppercase.
 
 #include<stdio.h>
 #include<>

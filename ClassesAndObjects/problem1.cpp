@@ -68,3 +68,19 @@ int main(){
 	cout << ptr->getCity() << endl;
 	return 0;
 }
+
+/*
+OUTPUT
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ g++ problem1.cpp 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ ./a.out 
+Name of the person is pranav
+age of the person is 25
+city of the person is pune
+enter name	pranav
+enter age	25
+enter city	pune
+pranav
+25
+pune
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/ClassesAndObjects$ 
+*/

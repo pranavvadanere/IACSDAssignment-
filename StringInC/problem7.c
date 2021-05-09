@@ -25,3 +25,29 @@ int main(){
 
 	return 0;
 }
+
+/*
+output
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ gcc problem7.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ ./a.out 
+how many disk want to copied
+4
+1 disk move A to C
+2 disk move A to B
+1 disk move C to B
+3 disk move A to C
+1 disk move B to A
+2 disk move B to C
+1 disk move A to C
+4 disk move A to B
+1 disk move C to B
+2 disk move C to A
+1 disk move B to A
+3 disk move C to B
+1 disk move A to C
+2 disk move A to B
+1 disk move C to B
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/StringInC$ 
+
+
+*/

@@ -28,3 +28,12 @@ int main(){
 
 	return 0;
 }
+
+/*
+output
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem24.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a number till you want to print primes
+20
+2	3	5	7	11	13	17	19	pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$
+*/

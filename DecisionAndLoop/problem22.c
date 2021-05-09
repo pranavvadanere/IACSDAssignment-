@@ -22,3 +22,20 @@ int main(){
 	printf("LCM of %d and %d is  %d \n",a,b,lcm);
 	return 0;
 }
+
+/*
+OUTPUT
+ranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem22.c 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a value of a and b
+10 20
+LCM of 10 and 20 is  20 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./a.out 
+enter a value of a and b
+12 
+50
+LCM of 12 and 50 is  300 
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/

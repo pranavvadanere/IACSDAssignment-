@@ -24,3 +24,35 @@ int main(){
 		printf("its not valid triangle\n");
 	return 0;
 }
+
+/*
+output
+ranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ gcc problem2.c -omyexe
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./myexe 
+enter first angle
+60
+enter second angle
+60
+enter third angle
+60
+its valid triangle
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./myexe 
+enter first angle
+212
+enter second angle
+1
+enter third angle
+1
+its not valid triangle
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ ./myexe 
+enter first angle
+20   
+enter second angle
+60
+enter third angle
+21
+its not valid triangle
+pranav@pranav-ThinkPad-L420:~/IACSDAssignment/DecisionAndLoop$ 
+
+
+*/
