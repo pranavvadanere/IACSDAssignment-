@@ -1,0 +1,13 @@
+[
+    {"id": 12,"title": "Gerbera","description": "Wedding flower","imageurl":"/images/gerbera.jpg","unitprice": 12,"quantity":5000,"likes":9000},
+    {"id": 13,"title": "Carnation","imageurl":"/images/carnation.jpg","description": "Delicate flower","unitprice": 8,"quantity":25000,"likes":87000},
+    {"id": 14,"title": "Lotus","imageurl":"/images/lotus.jpg","description": "Worship flower","unitprice": 25,"quantity":15000,"likes":455000},
+    {"id": 15,"title": "Rose","imageurl":"/images/rose.jpg","description": "Valentine flower","unitprice": 10,"quantity":35000,"likes":96000},
+    {"id": 16,"title": "Jasmine","imageurl":"/images/jasmine.jpg","description": "Smelling flower","unitprice":3,"quantity":85000,"likes":56000},
+    {"id": 17,"title": "Lily","imageurl":"/images/lily.jpg","description": "Beautiful flower","unitprice": 10,"quantity":35000,"likes":7660},
+    {"id": 18,"title": "Marigold","imageurl":"/images/marigold.jpg","description": "Festival flower","unitprice":3,"quantity":85000,"likes":76000},
+    {"id": 19,"title": "Tulip","imageurl":"/images/tulip.jpg","description": "Silsila flower","unitprice": 10,"quantity":35000,"likes":76000},
+    {"id": 20,"title": "Daisy","imageurl":"/images/daisy.jpg","description": "Swiss flower","unitprice":76,"quantity":8000,"likes":760},
+    {"id": 21,"title": "Orchid","imageurl":"/images/orchid.jpg","description": "Delicate flower","unitprice": 56,"quantity":35000,"likes":76000},
+    {"id": 22,"title": "Dahlia","imageurl":"/images/dahlia.jpg","description": "Pink flower","unitprice":45,"quantity":85000,"likes":76000}
+]

@@ -1,0 +1,9 @@
+[
+    {"id": 12,"customer": "IBM","orderdate": "12/8/2020","amount":5000,"status": "approved"},
+    {"id": 13,"customer": "Microsoft","orderdate": "14/7/2020","amount":5000,"status": "processed"},
+    {"id": 14,"customer": "Shell","orderdate": "12/8/2020","amount":5000,"status": "processed"},
+    {"id": 15,"customer": "Amazon","orderdate": "12/8/2020","amount":5000,"status": "cancelled"},
+    {"id": 16,"customer": "Facebook","orderdate": "1/8/2020","amount":5000,"status": "approved"},
+    {"id": 17,"customer": "Google","orderdate": "12/3/2021","amount":5000,"status": "rejected"},
+    {"id": 18,"customer": "Alibaba","orderdate": "6/4/2021","amount":5000,"status": "inprogess"}
+]
